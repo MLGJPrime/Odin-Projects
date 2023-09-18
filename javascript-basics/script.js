@@ -37,3 +37,25 @@ para2.textContent = "ME TOO!";
 block.appendChild(para2);
 
 container.appendChild(block);
+
+// const btn = document.querySelector('#btn');
+// btn.addEventListener('click', () => {
+//     alert("Hello World!");
+// });
+
+// function alertFunction() {
+//     alert("Yay! You did it!");
+// }
+
+// btn.onclick = alertFunction;
+
+// btn.addEventListener('click', function (e) {
+//     e.target.style.background = 'blue';
+// });
+
+const buttons = document.querySelectorAll('button');
+buttons.forEach((button) => {
+    button.addEventListener('click', () =>  {
+        alert(button.id);
+    });
+});
