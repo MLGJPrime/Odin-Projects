@@ -1,41 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 15px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Table template</h1>
     <table>
+      <thead>
         <tr>
-          <td>Hi, I'm your first cell.</td>
-          <td>I'm your second cell.</td>
-          <td>I'm your third cell.</td>
-          <td>I'm your fourth cell.</td>
+          <th colspan="2"></th>
+          <th>name</th>
+          <th>Mass (10<sup>24</sup>kg)</th>
+          <th>Diameter (km)</th>
+          <th>Density (kg/m<sup>2</sup>)</th>
+          <th>Gravity (m/s<sup>2</sup>)</th>
+          <th>Length of day (hours)</th>
+          <th></th>
+          <th></th>
+          <th></th>
         </tr>
-      
-        <tr>
-          <td>Second row, first cell.</td>
-          <td>Cell 2.</td>
-          <td>Cell 3.</td>
-          <td>Cell 4.</td>
-        </tr>
-      </table>
-</body>
+      </thead>
+    </table>
+  </body>
 </html>
